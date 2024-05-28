@@ -1,0 +1,16 @@
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/launch/axebot.launch.py
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/ament_index/resource_index/package_run_dependencies/axebot_gazebo
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/ament_index/resource_index/parent_prefix_path/axebot_gazebo
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/environment/ament_prefix_path.sh
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/environment/ament_prefix_path.dsv
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/environment/path.sh
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/environment/path.dsv
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/local_setup.bash
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/local_setup.sh
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/local_setup.zsh
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/local_setup.dsv
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.dsv
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/ament_index/resource_index/packages/axebot_gazebo
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/cmake/axebot_gazeboConfig.cmake
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/cmake/axebot_gazeboConfig-version.cmake
+/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.xml

@@ -1,0 +1,10 @@
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/uninstall.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/axebot_control_uninstall.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/go_to_goal.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/test.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/edit_cache.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/rebuild_cache.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/list_install_components.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/install.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/install/local.dir
+/home/pbear/Opentopic_ws/build/axebot_control/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+Invoking command in '/home/pbear/Opentopic_ws/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus -- -j16 -l16
+Invoked command in '/home/pbear/Opentopic_ws/build/turtlesim_plus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus -- -j16 -l16

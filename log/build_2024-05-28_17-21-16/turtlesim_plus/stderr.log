@@ -1,0 +1,4 @@
+Error copying directory from "/home/pbear/Opentopic_ws/src/turtlesim_plus/turtlesim_plus" to "/home/pbear/Opentopic_ws/build/turtlesim_plus/ament_cmake_python/turtlesim_plus/turtlesim_plus".
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_turtlesim_plus] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

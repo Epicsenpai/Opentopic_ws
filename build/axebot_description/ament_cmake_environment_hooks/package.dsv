@@ -1,0 +1,4 @@
+source;share/axebot_description/local_setup.bash
+source;share/axebot_description/local_setup.dsv
+source;share/axebot_description/local_setup.sh
+source;share/axebot_description/local_setup.zsh

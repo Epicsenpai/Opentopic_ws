@@ -1,0 +1,60 @@
+[0.043s] Invoking command in '/home/pbear/Opentopic_ws/build/axebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pbear/Opentopic_ws/src/axebot/axebot_description -DCMAKE_INSTALL_PREFIX=/home/pbear/Opentopic_ws/install/axebot_description
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.226s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.368s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.372s] -- Detecting CXX compiler ABI info
+[0.502s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.513s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.780s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.959s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.102s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.106s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.107s] -- Added test 'lint_cmake' to check CMake code style
+[1.108s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.111s] -- Added test 'xmllint' to check XML markup files
+[1.113s] -- Configuring done
+[1.118s] -- Generating done
+[1.119s] -- Build files have been written to: /home/pbear/Opentopic_ws/build/axebot_description
+[1.125s] Invoked command in '/home/pbear/Opentopic_ws/build/axebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pbear/Opentopic_ws/src/axebot/axebot_description -DCMAKE_INSTALL_PREFIX=/home/pbear/Opentopic_ws/install/axebot_description
+[1.127s] Invoking command in '/home/pbear/Opentopic_ws/build/axebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_description -- -j16 -l16
+[1.190s] Invoked command in '/home/pbear/Opentopic_ws/build/axebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_description -- -j16 -l16
+[1.251s] Invoking command in '/home/pbear/Opentopic_ws/build/axebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_description
+[1.263s] -- Install configuration: ""
+[1.263s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//launch
+[1.263s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//launch/view_robot.launch.py
+[1.263s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//config
+[1.263s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//config/wheel_only.rviz
+[1.264s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//config/axebot.rviz
+[1.264s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//urdf
+[1.264s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//urdf/ros2_control.urdf.xacro
+[1.264s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//urdf/materials.urdf.xacro
+[1.264s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//urdf/gazebo.urdf.xacro
+[1.265s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//urdf/wheel.urdf.xacro
+[1.265s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//urdf/axebot.urdf.xacro
+[1.265s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//meshes
+[1.266s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//meshes/rim.stl
+[1.267s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//meshes/wheel-collision.dae
+[1.267s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description//meshes/roller.stl
+[1.268s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/ament_index/resource_index/package_run_dependencies/axebot_description
+[1.268s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/ament_index/resource_index/parent_prefix_path/axebot_description
+[1.268s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/environment/ament_prefix_path.sh
+[1.269s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/environment/ament_prefix_path.dsv
+[1.269s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/environment/path.sh
+[1.269s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/environment/path.dsv
+[1.269s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/local_setup.bash
+[1.269s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/local_setup.sh
+[1.270s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/local_setup.zsh
+[1.270s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/local_setup.dsv
+[1.270s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.dsv
+[1.270s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/ament_index/resource_index/packages/axebot_description
+[1.271s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/cmake/axebot_descriptionConfig.cmake
+[1.271s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/cmake/axebot_descriptionConfig-version.cmake
+[1.271s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.xml
+[1.274s] Invoked command in '/home/pbear/Opentopic_ws/build/axebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_description

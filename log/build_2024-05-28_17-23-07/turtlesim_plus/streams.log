@@ -1,0 +1,6 @@
+[0.033s] Invoking command in '/home/pbear/Opentopic_ws/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus -- -j16 -l16
+[0.111s] Error copying directory from "/home/pbear/Opentopic_ws/src/turtlesim_plus/turtlesim_plus" to "/home/pbear/Opentopic_ws/build/turtlesim_plus/ament_cmake_python/turtlesim_plus/turtlesim_plus".
+[0.113s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_turtlesim_plus] Error 1
+[0.115s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/all] Error 2
+[0.115s] gmake: *** [Makefile:146: all] Error 2
+[0.118s] Invoked command in '/home/pbear/Opentopic_ws/build/turtlesim_plus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus -- -j16 -l16

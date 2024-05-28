@@ -1,0 +1,1 @@
+Invoking command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/omnidirectional_controllers -- -j16 -l16

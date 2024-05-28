@@ -1,0 +1,24 @@
+[100%] Built target go_to_goal
+-- Install configuration: ""
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//launch
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//launch/move_axebot_to_point.launch.py
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//launch/.gitempty
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//config
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//config/ros2_controllers.yaml
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//config/omnidirectional_controller.yaml
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/lib/axebot_control/go_to_goal
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/ament_index/resource_index/package_run_dependencies/axebot_control
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/ament_index/resource_index/parent_prefix_path/axebot_control
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/path.sh
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/path.dsv
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.bash
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.sh
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.zsh
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.dsv
+-- Installing: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.dsv
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/ament_index/resource_index/packages/axebot_control
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/cmake/axebot_controlConfig.cmake
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/cmake/axebot_controlConfig-version.cmake
+-- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.xml

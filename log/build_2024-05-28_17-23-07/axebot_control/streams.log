@@ -1,0 +1,3 @@
+[0.038s] Invoking command in '/home/pbear/Opentopic_ws/build/axebot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_control -- -j16 -l16
+[0.137s] [100%] Built target go_to_goal
+[0.166s] Invoked command in '/home/pbear/Opentopic_ws/build/axebot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_control -- -j16 -l16

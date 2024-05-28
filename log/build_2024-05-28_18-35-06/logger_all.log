@@ -1,0 +1,517 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72bbcff648b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72bbcff64400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72bbcff64400>>, mixin_verb=('build',))
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.241s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pbear/Opentopic_ws'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_control) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/axebot/axebot_control' with type 'ros.ament_cmake' and name 'axebot_control'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_description) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/axebot/axebot_description' with type 'ros.ament_cmake' and name 'axebot_description'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/axebot_gazebo) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/axebot/axebot_gazebo' with type 'ros.ament_cmake' and name 'axebot_gazebo'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/axebot/doc/images) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnidirectional_controllers) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omnidirectional_controllers' with type 'ros.ament_cmake' and name 'omnidirectional_controllers'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus' with type 'ros.ament_cmake' and name 'turtlesim_plus'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_interfaces) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus_interfaces' with type 'ros.ament_cmake' and name 'turtlesim_plus_interfaces'
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/pbear/Opentopic_ws/install
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/pbear/FRA501_exam1_6417_6440/install
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/pbear/fra501_ws/install
+[0.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 367 installed packages in /opt/ros/humble
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'axebot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbear/Opentopic_ws/build/axebot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbear/Opentopic_ws/install/axebot_control', 'merge_install': False, 'path': '/home/pbear/Opentopic_ws/src/axebot/axebot_control', 'symlink_install': False, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'axebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'axebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbear/Opentopic_ws/build/axebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbear/Opentopic_ws/install/axebot_description', 'merge_install': False, 'path': '/home/pbear/Opentopic_ws/src/axebot/axebot_description', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'omnidirectional_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbear/Opentopic_ws/build/omnidirectional_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbear/Opentopic_ws/install/omnidirectional_controllers', 'merge_install': False, 'path': '/home/pbear/Opentopic_ws/src/omnidirectional_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbear/Opentopic_ws/build/turtlesim_plus', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbear/Opentopic_ws/install/turtlesim_plus', 'merge_install': False, 'path': '/home/pbear/Opentopic_ws/src/turtlesim_plus', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces', 'merge_install': False, 'path': '/home/pbear/Opentopic_ws/src/turtlesim_plus_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'axebot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'axebot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbear/Opentopic_ws/build/axebot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbear/Opentopic_ws/install/axebot_gazebo', 'merge_install': False, 'path': '/home/pbear/Opentopic_ws/src/axebot/axebot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.338s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbear/Opentopic_ws/src/axebot/axebot_description' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbear/Opentopic_ws/src/axebot/axebot_description'
+[0.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbear/Opentopic_ws/src/axebot/axebot_control' with build type 'ament_cmake'
+[0.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbear/Opentopic_ws/src/axebot/axebot_control'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbear/Opentopic_ws/src/omnidirectional_controllers' with build type 'ament_cmake'
+[0.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbear/Opentopic_ws/src/omnidirectional_controllers'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbear/Opentopic_ws/src/turtlesim_plus' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbear/Opentopic_ws/src/turtlesim_plus'
+[0.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbear/Opentopic_ws/src/turtlesim_plus_interfaces' with build type 'ament_cmake'
+[0.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbear/Opentopic_ws/src/turtlesim_plus_interfaces'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/axebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_description -- -j16 -l16
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/axebot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_control -- -j16 -l16
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/omnidirectional_controllers -- -j16 -l16
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus -- -j16 -l16
+[0.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces -- -j16 -l16
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/axebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_description -- -j16 -l16
+[0.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/axebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_description
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/axebot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_control -- -j16 -l16
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axebot_description)
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/axebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_description
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description' for CMake module files
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description' for CMake config files
+[0.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('axebot_description', 'cmake_prefix_path')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/hook/cmake_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/hook/cmake_prefix_path.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/bin'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/lib/pkgconfig/axebot_description.pc'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/lib/python3.10/site-packages'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/bin'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.bash'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.zsh'
+[0.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/axebot_description/share/colcon-core/packages/axebot_description)
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/omnidirectional_controllers -- -j16 -l16
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/axebot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_control
+[0.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axebot_control)
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control' for CMake module files
+[0.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/axebot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_control
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control' for CMake config files
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('axebot_control', 'cmake_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/hook/cmake_prefix_path.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/hook/cmake_prefix_path.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/hook/cmake_prefix_path.sh'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/lib'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/bin'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/lib/pkgconfig/axebot_control.pc'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/lib/python3.10/site-packages'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/bin'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.ps1'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.sh'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.bash'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.zsh'
+[0.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/axebot_control/share/colcon-core/packages/axebot_control)
+[0.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axebot_description)
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description' for CMake module files
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description' for CMake config files
+[0.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('axebot_description', 'cmake_prefix_path')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/hook/cmake_prefix_path.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/hook/cmake_prefix_path.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/hook/cmake_prefix_path.sh'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/bin'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/lib/pkgconfig/axebot_description.pc'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/lib/python3.10/site-packages'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_description/bin'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.bash'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_description/share/axebot_description/package.zsh'
+[0.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/axebot_description/share/colcon-core/packages/axebot_description)
+[0.568s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbear/Opentopic_ws/src/axebot/axebot_gazebo' with build type 'ament_cmake'
+[0.568s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbear/Opentopic_ws/src/axebot/axebot_gazebo'
+[0.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/axebot_gazebo': CMAKE_PREFIX_PATH=/home/pbear/Opentopic_ws/install/axebot_description:/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces:/home/pbear/Opentopic_ws/install/turtlesim_plus:/home/pbear/Opentopic_ws/install/omnidirectional_controllers:/home/pbear/Opentopic_ws/install/axebot_gazebo:/home/pbear/Opentopic_ws/install/axebot_control:/home/pbear/fra501_ws/install/megarover_samples_ros2:/home/pbear/fra501_ws/install/xicro_pkg:/home/pbear/fra501_ws/install/xicro_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus:/home/pbear/fra501_ws/install/turtlesim_interfaces:/home/pbear/fra501_ws/install/turtlesim_control:/home/pbear/fra501_ws/install/software_integration:/home/pbear/fra501_ws/install/noob_gazebo:/home/pbear/fra501_ws/install/noob_description:/home/pbear/fra501_ws/install/my_controller_interfaces:/home/pbear/fra501_ws/install/my_controller:/home/pbear/fra501_ws/install/example_description:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus_interfaces:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus:/home/pbear/FRA501_exam1_6417_6440/install/turtle_control:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_gazebo -- -j16 -l16
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/omnidirectional_controllers
+[0.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axebot_control)
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control' for CMake module files
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control' for CMake config files
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('axebot_control', 'cmake_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/hook/cmake_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/hook/cmake_prefix_path.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/hook/cmake_prefix_path.sh'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/lib'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/bin'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/lib/pkgconfig/axebot_control.pc'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/lib/python3.10/site-packages'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_control/bin'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.sh'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.bash'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.zsh'
+[0.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/axebot_control/share/colcon-core/packages/axebot_control)
+[0.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnidirectional_controllers)
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers' for CMake module files
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/omnidirectional_controllers
+[0.614s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers' for CMake config files
+[0.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_controllers', 'cmake_prefix_path')
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/cmake_prefix_path.ps1'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/cmake_prefix_path.dsv'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/lib'
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_controllers', 'ld_library_path_lib')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/ld_library_path_lib.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/ld_library_path_lib.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/ld_library_path_lib.sh'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/bin'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/lib/pkgconfig/omnidirectional_controllers.pc'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/lib/python3.10/site-packages'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/bin'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.sh'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.bash'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.zsh'
+[0.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/colcon-core/packages/omnidirectional_controllers)
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/axebot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/pbear/Opentopic_ws/install/axebot_description:/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces:/home/pbear/Opentopic_ws/install/turtlesim_plus:/home/pbear/Opentopic_ws/install/omnidirectional_controllers:/home/pbear/Opentopic_ws/install/axebot_gazebo:/home/pbear/Opentopic_ws/install/axebot_control:/home/pbear/fra501_ws/install/megarover_samples_ros2:/home/pbear/fra501_ws/install/xicro_pkg:/home/pbear/fra501_ws/install/xicro_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus:/home/pbear/fra501_ws/install/turtlesim_interfaces:/home/pbear/fra501_ws/install/turtlesim_control:/home/pbear/fra501_ws/install/software_integration:/home/pbear/fra501_ws/install/noob_gazebo:/home/pbear/fra501_ws/install/noob_description:/home/pbear/fra501_ws/install/my_controller_interfaces:/home/pbear/fra501_ws/install/my_controller:/home/pbear/fra501_ws/install/example_description:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus_interfaces:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus:/home/pbear/FRA501_exam1_6417_6440/install/turtle_control:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_gazebo -- -j16 -l16
+[0.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/axebot_gazebo': CMAKE_PREFIX_PATH=/home/pbear/Opentopic_ws/install/axebot_description:/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces:/home/pbear/Opentopic_ws/install/turtlesim_plus:/home/pbear/Opentopic_ws/install/omnidirectional_controllers:/home/pbear/Opentopic_ws/install/axebot_gazebo:/home/pbear/Opentopic_ws/install/axebot_control:/home/pbear/fra501_ws/install/megarover_samples_ros2:/home/pbear/fra501_ws/install/xicro_pkg:/home/pbear/fra501_ws/install/xicro_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus:/home/pbear/fra501_ws/install/turtlesim_interfaces:/home/pbear/fra501_ws/install/turtlesim_control:/home/pbear/fra501_ws/install/software_integration:/home/pbear/fra501_ws/install/noob_gazebo:/home/pbear/fra501_ws/install/noob_description:/home/pbear/fra501_ws/install/my_controller_interfaces:/home/pbear/fra501_ws/install/my_controller:/home/pbear/fra501_ws/install/example_description:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus_interfaces:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus:/home/pbear/FRA501_exam1_6417_6440/install/turtle_control:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_gazebo
+[0.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axebot_gazebo)
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo' for CMake module files
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/axebot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/pbear/Opentopic_ws/install/axebot_description:/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces:/home/pbear/Opentopic_ws/install/turtlesim_plus:/home/pbear/Opentopic_ws/install/omnidirectional_controllers:/home/pbear/Opentopic_ws/install/axebot_gazebo:/home/pbear/Opentopic_ws/install/axebot_control:/home/pbear/fra501_ws/install/megarover_samples_ros2:/home/pbear/fra501_ws/install/xicro_pkg:/home/pbear/fra501_ws/install/xicro_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus_interfaces:/home/pbear/fra501_ws/install/turtlesim_plus:/home/pbear/fra501_ws/install/turtlesim_interfaces:/home/pbear/fra501_ws/install/turtlesim_control:/home/pbear/fra501_ws/install/software_integration:/home/pbear/fra501_ws/install/noob_gazebo:/home/pbear/fra501_ws/install/noob_description:/home/pbear/fra501_ws/install/my_controller_interfaces:/home/pbear/fra501_ws/install/my_controller:/home/pbear/fra501_ws/install/example_description:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus_interfaces:/home/pbear/FRA501_exam1_6417_6440/install/turtlesim_plus:/home/pbear/FRA501_exam1_6417_6440/install/turtle_control:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_gazebo
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo' for CMake config files
+[0.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('axebot_gazebo', 'cmake_prefix_path')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/hook/cmake_prefix_path.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/hook/cmake_prefix_path.sh'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/bin'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/lib/pkgconfig/axebot_gazebo.pc'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/lib/python3.10/site-packages'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/bin'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.dsv'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.sh'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.bash'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.zsh'
+[0.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/axebot_gazebo/share/colcon-core/packages/axebot_gazebo)
+[0.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnidirectional_controllers)
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers' for CMake module files
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers' for CMake config files
+[0.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_controllers', 'cmake_prefix_path')
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/cmake_prefix_path.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/cmake_prefix_path.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/cmake_prefix_path.sh'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/lib'
+[0.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_controllers', 'ld_library_path_lib')
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/ld_library_path_lib.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/ld_library_path_lib.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/hook/ld_library_path_lib.sh'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/bin'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/lib/pkgconfig/omnidirectional_controllers.pc'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/lib/python3.10/site-packages'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/bin'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.sh'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.bash'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.zsh'
+[0.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/colcon-core/packages/omnidirectional_controllers)
+[0.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axebot_gazebo)
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo' for CMake module files
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo' for CMake config files
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('axebot_gazebo', 'cmake_prefix_path')
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/hook/cmake_prefix_path.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/hook/cmake_prefix_path.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/hook/cmake_prefix_path.sh'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/bin'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/lib/pkgconfig/axebot_gazebo.pc'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/lib/python3.10/site-packages'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/axebot_gazebo/bin'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.sh'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.bash'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/axebot_gazebo/share/axebot_gazebo/package.zsh'
+[0.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/axebot_gazebo/share/colcon-core/packages/axebot_gazebo)
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus -- -j16 -l16
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces -- -j16 -l16
+[0.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/turtlesim_plus
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus' for CMake module files
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/turtlesim_plus
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/lib'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/lib/python3.10/site-packages'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/bin'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[0.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus' for CMake module files
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus' for CMake config files
+[0.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/lib'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/bin'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/lib/python3.10/site-packages'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus/bin'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[0.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces
+[1.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces' for CMake module files
+[1.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/turtlesim_plus_interfaces
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces' for CMake config files
+[1.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/lib'
+[1.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/bin'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/bin'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[1.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[1.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces' for CMake module files
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces' for CMake config files
+[1.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/lib'
+[1.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/bin'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/bin'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[1.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbear/Opentopic_ws/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[1.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.313s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.318s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.318s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.318s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.329s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbear/Opentopic_ws/install/local_setup.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pbear/Opentopic_ws/install/_local_setup_util_ps1.py'
+[1.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbear/Opentopic_ws/install/setup.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbear/Opentopic_ws/install/local_setup.sh'
+[1.334s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pbear/Opentopic_ws/install/_local_setup_util_sh.py'
+[1.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbear/Opentopic_ws/install/setup.sh'
+[1.336s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbear/Opentopic_ws/install/local_setup.bash'
+[1.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbear/Opentopic_ws/install/setup.bash'
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbear/Opentopic_ws/install/local_setup.zsh'
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbear/Opentopic_ws/install/setup.zsh'

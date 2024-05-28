@@ -1,0 +1,41 @@
+[0.043s] Invoking command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/omnidirectional_controllers -- -j16 -l16
+[0.150s] [  9%] Built target kinematics
+[0.152s] [ 28%] Built target odometry
+[0.152s] [ 33%] Built target gmock
+[0.153s] [ 42%] Built target gmock_main
+[0.213s] [ 61%] Built target test_odometry
+[0.213s] [ 80%] Built target test_kinematics
+[0.216s] [100%] Built target omnidirectional_controllers
+[0.244s] Invoked command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/omnidirectional_controllers -- -j16 -l16
+[0.341s] Invoking command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/omnidirectional_controllers
+[0.355s] -- Install configuration: ""
+[0.356s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/omnidirectional_plugin.xml
+[0.356s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/include
+[0.357s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/include/omnidirectional_controllers
+[0.357s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/include/omnidirectional_controllers/omnidirectional_controller.hpp
+[0.358s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/include/omnidirectional_controllers/types.hpp
+[0.358s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/include/omnidirectional_controllers/odometry.hpp
+[0.358s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/include/omnidirectional_controllers/kinematics.hpp
+[0.358s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/lib/libomnidirectional_controllers.so
+[0.359s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/environment/library_path.sh
+[0.359s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/environment/library_path.dsv
+[0.360s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/ament_index/resource_index/package_run_dependencies/omnidirectional_controllers
+[0.360s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/ament_index/resource_index/parent_prefix_path/omnidirectional_controllers
+[0.360s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/environment/ament_prefix_path.sh
+[0.360s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/environment/ament_prefix_path.dsv
+[0.360s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/environment/path.sh
+[0.361s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/environment/path.dsv
+[0.362s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/local_setup.bash
+[0.362s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/local_setup.sh
+[0.363s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/local_setup.zsh
+[0.363s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/local_setup.dsv
+[0.363s] -- Installing: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.dsv
+[0.364s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/ament_index/resource_index/packages/omnidirectional_controllers
+[0.365s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/omnidirectional_controllers
+[0.365s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.365s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.365s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.366s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/cmake/omnidirectional_controllersConfig.cmake
+[0.367s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/cmake/omnidirectional_controllersConfig-version.cmake
+[0.368s] -- Up-to-date: /home/pbear/Opentopic_ws/install/omnidirectional_controllers/share/omnidirectional_controllers/package.xml
+[0.375s] Invoked command in '/home/pbear/Opentopic_ws/build/omnidirectional_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/omnidirectional_controllers

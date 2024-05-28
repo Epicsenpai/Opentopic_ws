@@ -1,0 +1,28 @@
+[0.048s] Invoking command in '/home/pbear/Opentopic_ws/build/axebot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_control -- -j16 -l16
+[0.155s] [100%] Built target go_to_goal
+[0.198s] Invoked command in '/home/pbear/Opentopic_ws/build/axebot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pbear/Opentopic_ws/build/axebot_control -- -j16 -l16
+[0.269s] Invoking command in '/home/pbear/Opentopic_ws/build/axebot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_control
+[0.285s] -- Install configuration: ""
+[0.285s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//launch
+[0.285s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//launch/move_axebot_to_point.launch.py
+[0.285s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//launch/.gitempty
+[0.285s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//config
+[0.286s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//config/ros2_controllers.yaml
+[0.286s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control//config/omnidirectional_controller.yaml
+[0.286s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/lib/axebot_control/go_to_goal
+[0.286s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/ament_index/resource_index/package_run_dependencies/axebot_control
+[0.286s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/ament_index/resource_index/parent_prefix_path/axebot_control
+[0.286s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/ament_prefix_path.sh
+[0.286s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/ament_prefix_path.dsv
+[0.287s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/path.sh
+[0.287s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/environment/path.dsv
+[0.287s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.bash
+[0.288s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.sh
+[0.288s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.zsh
+[0.288s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/local_setup.dsv
+[0.288s] -- Installing: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.dsv
+[0.288s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/ament_index/resource_index/packages/axebot_control
+[0.288s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/cmake/axebot_controlConfig.cmake
+[0.289s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/cmake/axebot_controlConfig-version.cmake
+[0.289s] -- Up-to-date: /home/pbear/Opentopic_ws/install/axebot_control/share/axebot_control/package.xml
+[0.292s] Invoked command in '/home/pbear/Opentopic_ws/build/axebot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pbear/Opentopic_ws/build/axebot_control
