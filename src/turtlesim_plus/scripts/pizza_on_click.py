@@ -27,7 +27,7 @@ class PizzaOnClick(Node):
             self.get_logger().info('spawn_pizza server is found !!')
         self.streams = resolve_stream('type', 'Markers')
         self.inlet = StreamInlet(self.streams[0])
-        timer_period = 0.5  # seconds
+        timer_period = 0.5  
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
 
